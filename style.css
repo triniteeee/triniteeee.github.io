@@ -1,0 +1,87 @@
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6kU_N_Dggpp-3BcKScSL9E4GTxJaT6k6Jy2djJzcBVha4Q0-R3ln3XsiqIoZwEAZGHWc&usqp=CAU">
+        <style>
+        
+
+            body {
+                background: rgb(225, 234, 95);
+                color: rgb(206, 206, 219)
+                padding: 10px;
+                font-family: cursive;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+        
+            /* navigation menu */
+            nav {
+                background: rgb(45, 52, 101);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            nav h1 {
+                display: flex;
+                align-items: center;
+                color: rgb(14, 43, 110);
+                flex: 1;
+                margin: 0;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #004700;
+            }
+        
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+
+
+                     /* portfolio styles */
+         .content h1 {
+            color: black;
+        }
+
+        #portfolio {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #portfolio li {
+            background: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        #portfolio li:hover {
+            background: #eee;
+        }
+
+        #portfolio a {
+            text-decoration: none;
+            color: #454545;
+        }
